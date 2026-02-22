@@ -1,6 +1,6 @@
 {
-    "name": "mobile_app",
-    "short_name": "mobile_app",
+    "name": "Door Pass",
+    "short_name": "Door Pass",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
