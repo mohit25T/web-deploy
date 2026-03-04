@@ -13,20 +13,6 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
-/* ===============================
-   🔔 Background Message Handler
-=============================== */
-messaging.onBackgroundMessage(function (payload) {
-    console.log("📩 Background Message:", payload);
-
-    const title = payload.data.title || "New Notification";
-    const options = {
-        body: payload.data.body || "",
-        data: payload.data,
-    };
-
-    self.registration.showNotification(title, options);
-});
 
 /* ===============================
    🔁 Notification Click Handler
