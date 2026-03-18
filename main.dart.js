@@ -30252,7 +30252,7 @@ return A.p($async$RI,r)},
 aPM(){var s=0,r=A.q(t.y),q,p,o,n
 var $async$aPM=A.m(function(a,b){if(a===1)return A.n(b,r)
 for(;;)switch(s){case 0:try{o=window.navigator.onLine
-q=o!==!1
+q=o===!0
 s=1
 break}catch(m){p=A.a7(m)
 A.je("Internet check error: "+A.l(p))
